@@ -22,7 +22,7 @@ export const App: React.FC = () => {
                 id="search-query"
                 className="input"
                 placeholder="Type search word"
-                onChange={e => setMovieTitle(e.target.value)}
+                onChange={event => setMovieTitle(event.target.value)}
               />
             </div>
           </div>
